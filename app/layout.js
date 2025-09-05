@@ -1,14 +1,19 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+import {Inter, Plus_Jakarta_Sans} from "next/font/google";
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
+const inter = Inter({
   subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+const jakarta = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  variable: "--font-jakarta",
+  display: "swap",
 });
 
 export const metadata = {
@@ -18,11 +23,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="en" className={`${inter.variable} ${jakarta.variable}`}>
+      <body className="font-sans">
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
