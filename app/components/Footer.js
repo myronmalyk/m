@@ -16,7 +16,7 @@ export default function Footer() {
                     <circle cx="20" cy="20" r="18" stroke="#000" strokeWidth="2" fill="#fff" />
                     <text x="50%" y="55%" textAnchor="middle" fill="#000" fontSize="14" fontFamily="Arial" dy=".3em">M</text>
                 </svg>
-                <span className="text-white font-bold text-lg">Myron's Agency</span>
+                <span className="text-white font-bold text-lg">Myron&apos;s Agency</span>
             </div>
             </span>
             <span className="text-gray-400">Transforming spaces, exceeding expectations.</span>
@@ -34,7 +34,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 text-center text-gray-500 text-sm">
-          &copy; {new Date().getFullYear()} Myron's Agency. All rights reserved.
+          &copy; {new Date().getFullYear()} Myron&apos;s Agency. All rights reserved.
         </div>
       </footer>
     );

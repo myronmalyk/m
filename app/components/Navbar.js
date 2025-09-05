@@ -13,7 +13,7 @@ export default function Navbar() {
                     <circle cx="20" cy="20" r="18" stroke="#000" strokeWidth="2" fill="#fff" />
                     <text x="50%" y="55%" textAnchor="middle" fill="#000" fontSize="14" fontFamily="Arial" dy=".3em">M</text>
                 </svg>
-                <span className="text-white font-bold text-lg">Myron's Agency</span>
+                <span className="text-white font-bold text-lg">Myron&apos;s Agency</span>
             </div>
             <ul className="flex list-none m-0 p-0">
                 <li className="mx-4">
