@@ -286,7 +286,7 @@ We don’t believe in generic solutions—every strategy is tailored to fit your
           <div className="flex-1 flex flex-col items-center justify-center p-6 bg-white rounded-2xl shadow-lg ">
             <h3 className="text-2xl font-bold text-black mb-2">SEO Optimization</h3>
             <p className="text-gray-800">
-              Improve your website's visibility on search engines and attract more traffic.
+              Improve your website&apos;s visibility on search engines and attract more traffic.
             </p>
           </div>
         </div>
