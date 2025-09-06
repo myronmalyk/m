@@ -139,7 +139,7 @@ export default function Home() {
           </span>
 
           <h1 className="mb-6 text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
-            <Typewriter text="Turning Ideas Into Profitable Digital Presence" speed={40} cursor={false} />
+            <Typewriter text="We build websites that bring you more clients." speed={40} cursor={false} />
           </h1>
 
           <p className="max-w-xl text-base leading-relaxed text-white/70 sm:text-lg">
@@ -150,7 +150,7 @@ export default function Home() {
             href="#contact"
             className="mt-8 inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-medium text-black shadow-md transition hover:bg-gray-200"
           >
-            Work With Us <span aria-hidden>↗</span>
+            Get Your Website <span aria-hidden>↗</span>
           </a>
         </div>
 
@@ -180,7 +180,7 @@ export default function Home() {
       {/* Derecha: párrafo */}
       <div className="md:col-span-7 md:pl-4">
         <p className="font-sans text-lg md:text-xl leading-[2] text-neutral-600 max-w-2xl">
-          We are Myrons Agency, a results-driven digital marketing agency.
+          We are Myron&apos;s Agency, a results-driven digital marketing agency.
 Our team helps local and international businesses attract more customers, build strong online presence, and scale with confidence.
 We don’t believe in generic solutions—every strategy is tailored to fit your goals and deliver real results.
         </p>
@@ -262,43 +262,40 @@ We don’t believe in generic solutions—every strategy is tailored to fit your
   </section>
       </section>
       {/* What We Do Section */}
+
+      {/* Services Section */}
       <section
-        id="what-we-do"
-        className="w-[95vw] mx-auto flex flex-col items-center justify-center py-24 bg-gray-50"
+        id="services"
+        className="relative w-[100vw] mx-auto flex flex-col items-center justify-center py-24 bg-gray-50"
       >
         <div className="w-full flex flex-col items-center mb-12">
-          <h2 className="text-5xl font-extrabold text-black text-center mb-4">What We Do</h2>
+          <h2 className="text-5xl font-extrabold text-black text-center mb-4">Our Services</h2>
           <p className="text-xl text-gray-700 text-center max-w-2xl">
-            Discover our services and how we help businesses grow online.
+            Explore the range of services we offer to help your business succeed online.
           </p>
         </div>
-        <div className="w-full flex flex-row items-center justify-center gap-12 mt-8">
-          {/* Left: Image */}
-          <div className="flex-1 flex items-center justify-center">
-            <img
-              src="/images/office.png"
-              alt="What We Do"
-              className="object-cover rounded-2xl shadow-lg w-[500px] h-[700px]"
-            />
-          </div>
-          {/* Right: Text */}
-          <div className="flex-1 flex flex-col items-start justify-center p-18">
-            <h3 className="text-3xl font-bold text-black mb-4">Our Expertise</h3>
-            <p className="text-lg text-gray-800 mb-2">
-              At Myrons Agency, we specialize in helping businesses grow through social media marketing, paid advertising, and web development.
-Our team is dedicated to delivering strategies that generate leads, increase visibility, and drive measurable results.
+        <div className="w-full flex flex-row items-center justify-center gap-12 mt-8 px-9">
+          {/* Service 1 */}
+          <div className="flex-1 flex flex-col items-center justify-center p-6 bg-white rounded-2xl shadow-lg">
+            <h3 className="text-2xl font-bold text-black mb-2">Web Development</h3>
+            <p className="text-gray-800">
+              Custom website development tailored to your business needs.
             </p>
-            <p className="text-lg text-gray-800">
-              With a mix of creativity, data-driven insights, and a client-first mindset, we ensure every campaign is optimized for success.
-Let us help you scale your business and turn your goals into reality.
+          </div>
+          {/* Service 2 */}
+          <div className="flex-1 flex flex-col items-center justify-center p-6 bg-white rounded-2xl shadow-lg ">
+            <h3 className="text-2xl font-bold text-black mb-2">SEO Optimization</h3>
+            <p className="text-gray-800">
+              Improve your website's visibility on search engines and attract more traffic.
             </p>
           </div>
         </div>
       </section>
+
       {/* Contact Section */}
       <section
       id="contact"
-      className="relative w-[95vw] mx-auto flex flex-col items-center justify-center py-24 bg-white"
+      className="relative w-[100vw] mx-auto flex flex-col items-center justify-center py-24 bg-white"
     >
       {/* Toast de éxito / error */}
       <div
